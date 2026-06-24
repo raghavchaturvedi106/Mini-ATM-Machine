@@ -1,56 +1,107 @@
 # Mini-ATM-Machine
+# 💳 ATM Simulation System in C
 
-💳 ATM Simulation Project in C
+![C](https://img.shields.io/badge/Language-C-blue)
+![Status](https://img.shields.io/badge/Status-Completed-green)
+![Level](https://img.shields.io/badge/Level-Beginner%20Project-orange)
 
-📌 Overview
+## 📌 Overview
 
-This is a simple ATM Simulation Project developed using the C programming language.
-It demonstrates basic banking operations in a console-based environment.
+This is a simple ATM Simulation System developed using the C programming language.
 
-📸 Demo
+The project allows users to perform basic banking operations through a menu-driven interface and demonstrates the use of functions, loops, conditional statements, and user input handling.
 
-Add your screenshot file in the repository as atm.png
+---
 
-![ATM Demo](atm.png)
+## ✨ Features
 
-⚙️ Features
-Check Account Balance
-Deposit Money
-Withdraw Money
-Exit System
-Input validation for safe transactions
+- Check Account Balance
+- Deposit Money
+- Withdraw Money
+- Input Validation
+- Menu-Driven Interface
+- Exit System
 
-🧠 Concepts Used
-while loop
-if-else conditions
-variables
-input/output functions (printf, scanf)
-basic logic building
+---
 
-🚀 How to Run
-Step 1: Compile the program
-gcc main.c -o atm
-Step 2: Run the program
-./atm
+## 🧠 Concepts Used
 
-📁 Project Structure
+- Functions
+- While Loops
+- If-Else Statements
+- Variables
+- User Input & Output
+- Return Values
+- Modular Programming
+
+---
+
+## 📂 Project Structure
+
+```text
 ATM-Project/
 │
 ├── main.c
-├── README.md
-└── atm.png   (optional screenshot)
+└── README.md
+```
 
-📷 Screenshot
-![ATM Screenshot](atm.png)
+---
 
-🔮 Future Improvements
-PIN authentication system
-Transaction history
-Multiple user accounts
-File handling for data storage
+## 🚀 How to Run
 
-👨‍💻 Author
+### Compile
+
+```bash
+gcc main.c -o atm
+```
+
+### Run
+
+```bash
+./atm
+```
+
+---
+
+## 📸 Sample Output
+
+```text
+===== ATM MENU =====
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Exit
+Enter your choice: 1
+
+Current Balance: 1000
+```
+
+---
+
+## 🔮 Future Improvements
+
+- PIN Authentication
+- Transaction History
+- Multiple User Accounts
+- File Handling for Data Storage
+- Admin Panel
+
+---
+
+## 🎯 Learning Outcome
+
+This project helped me learn:
+
+- Function creation and usage
+- Passing arguments to functions
+- Returning values from functions
+- Building menu-driven applications
+- Writing cleaner and more structured C code
+
+---
+
+## 👨‍💻 Author
 
 Raghav Chaturvedi
 
-C Programming Beginner Project 🚀
+First Function-Based C Project 🚀
